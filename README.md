@@ -2,11 +2,6 @@
 
 Aplikacja mobilna do sprawdzania aktualnej pogody oraz prognozy 7-dniowej dla wybranego miasta. Korzysta z zewnętrznego API pogodowego (Weatherbit) i umożliwia logowanie użytkowników oraz zapisywanie historii wyszukiwań w chmurze (Firebase).
 
-## 📱 Demo
-
-> 🔗 Link do wersji webowej (np. GitHub Pages lub Expo Web)  
-> *(Wstaw tutaj link, jeśli już opublikowane)*
-
 ---
 
 ## 🚀 Funkcjonalności
@@ -60,3 +55,4 @@ Aplikacja mobilna do sprawdzania aktualnej pogody oraz prognozy 7-dniowej dla wy
    ```bash
    git clone https://github.com/twoja-nazwa/weather-app.git
    cd weather-app
+   npx expo start
