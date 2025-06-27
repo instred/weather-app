@@ -1,7 +1,22 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "types": [
+      "react",
+      "react-native"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "strict": true,
+    "moduleResolution": "node16",
+    "target": "esnext",
+    "module": "Node16",
+    "skipLibCheck": true,
     "paths": {
       "@/*": [
         "./*"
@@ -10,8 +25,6 @@
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "**/*.tsx"
+, "babel.config.cjs", "firebaseConfig.js", "firebase.js", "styles/weather.styles.js", "styles/register.styles.js", "styles/login.styles.js", "styles/index.styles.js", "firebaseService.js"  ]
 }
